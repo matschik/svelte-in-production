@@ -76,7 +76,7 @@ export const sites: Sites = [
     name: "IKEA",
     brand: "IKEA",
     sector: "Retail & E-commerce",
-    implementation: "Svelte Kit",
+    implementation: "Svelte in Micro Frontend",
     domains: ["https://www.ikea.com/fr/fr/"],
     evidence: [{
       type: "blog",
@@ -98,7 +98,7 @@ export const sites: Sites = [
     name: "Yelp Top 100",
     brand: "Yelp",
     sector: "Business & Reviews",
-    implementation: "Svelte Kit",
+    implementation: "Svelte",
     domains: ["https://top100.yelp.com"],
     evidence: [{
       type: "blog",
@@ -114,7 +114,8 @@ export const sites: Sites = [
     evidence: [{
       type: "blog",
       url: "https://www.okupter.com/blog/companies-using-svelte"
-    }]
+    }],
+    hidden: true
   },
   {
     name: "Square",
@@ -136,7 +137,8 @@ export const sites: Sites = [
     evidence: [{
       type: "blog",
       url: "https://www.okupter.com/blog/companies-using-svelte"
-    }]
+    }],
+    hidden: true
   },
   {
     name: "Brave Search",

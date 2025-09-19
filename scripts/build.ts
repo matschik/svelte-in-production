@@ -24,14 +24,14 @@ const sitesTable = sites
     const domains = site.domains.map(d => `[${d}](${d.startsWith('http') ? d : `https://${d}`})`).join('<br/>');
     const label = site.brand && site.brand !== site.name ? `${site.name} — ${site.brand}` : site.name;
     const evidence = site.evidence.map(e => `[${e.type}](${e.url})`).join(', ');
-    return `| ${label} | ${site.implementation} | ${domains} | ${evidence} | ${site.sector || ''} |`;
+    return `| ${label} | ${site.implementation} | ${domains} | ${evidence} |`;
   })
   .join('\n');
 
 const table = `## 📇 Sites
 
-| Site | Implementation | Domains | Evidence | Sector |
-|------|----------------|---------|----------|--------|
+| Site | Implementation | Domains | Evidence |
+|------|----------------|---------|----------|
 ${sitesTable}`;
 
 // Update README using Bun's built-in file APIs

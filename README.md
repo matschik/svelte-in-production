@@ -5,7 +5,7 @@ A community‑maintained, **verifiable** catalog of recognized websites and apps
 > Goal: a high‑signal list (brands, institutions, notable products) with clear proof each entry actually uses Svelte in production.
 
 <!-- STATS -->
-![entries](https://img.shields.io/badge/entries-15-brightgreen) ![svelte](https://img.shields.io/badge/svelte-2-brightgreen) ![sveltekit](https://img.shields.io/badge/sveltekit-10-brightgreen)
+![entries](https://img.shields.io/badge/entries-15-brightgreen) ![svelte](https://img.shields.io/badge/svelte-3-brightgreen) ![sveltekit](https://img.shields.io/badge/sveltekit-8-brightgreen)
 <!-- END_STATS -->
 
 
@@ -23,23 +23,23 @@ An entry should meet **at least one** of the following:
 <!-- SITES_TABLE -->
 ## 📇 Sites
 
-| Site | Implementation | Domains | Evidence | Sector |
-|------|----------------|---------|----------|--------|
-| Apple Music — Apple | Svelte | [https://music.apple.com](https://music.apple.com) | [blog](https://www.okupter.com/blog/companies-using-svelte) | Technology & Media |
-| Brave Search — Brave | Svelte Kit | [https://search.brave.com](https://search.brave.com) | [blog](https://www.okupter.com/blog/companies-using-svelte) | Technology & Search |
-| Cloudflare | Svelte in Micro Frontend | [https://cloudflare.com](https://cloudflare.com) | [blog](https://www.okupter.com/blog/companies-using-svelte) | Technology & Infrastructure |
-| Decathlon | Svelte Kit | [https://www.decathlon.fr](https://www.decathlon.fr) | [blog](https://www.okupter.com/blog/companies-using-svelte) | Retail & E-commerce |
-| France Bleu | Svelte Kit | [https://francebleu.fr](https://francebleu.fr) | [detector](https://francebleu.fr) | Media & Broadcasting |
-| IKEA | Svelte Kit | [https://www.ikea.com/fr/fr/](https://www.ikea.com/fr/fr/) | [blog](https://www.okupter.com/blog/companies-using-svelte) | Retail & E-commerce |
-| Leroy Merlin | Svelte in Micro Frontend | [https://www.leroymerlin.fr](https://www.leroymerlin.fr) | [other](https://www.welovespeed.com/en/2021/talks/micro-frontend-drives-web-performance/) | Retail & E-commerce |
-| Radio France | Svelte Kit | [https://radiofrance.fr](https://radiofrance.fr) | [detector](https://radiofrance.fr) | Media & Broadcasting |
-| Spotify | Svelte in Micro Frontend | [https://spotify.com](https://spotify.com) | [blog](https://www.okupter.com/blog/companies-using-svelte) | Music & Streaming |
-| Square | Svelte | [https://squareup.com](https://squareup.com) | [blog](https://www.okupter.com/blog/companies-using-svelte) | Financial Technology |
-| Stack Overflow | Svelte Kit | [https://stackoverflow.com](https://stackoverflow.com) | [blog](https://stackoverflow.blog/2023/10/31/why-stack-overflow-is-embracing-svelte/) | Technology & Developer Tools |
-| The New York Times | Svelte Kit | [https://nytimes.com](https://nytimes.com) | [blog](https://www.okupter.com/blog/companies-using-svelte) | Media & Publishing |
-| ViaMichelin | Svelte Kit | [https://viamichelin.com](https://viamichelin.com) | [detector](https://viamichelin.fr), [blog](https://www.okupter.com/blog/companies-using-svelte) | Travel & Navigation |
-| Windmill — Windmill Labs | Svelte Kit | [https://windmill.dev](https://windmill.dev) | [code](https://github.com/windmill-labs/windmill) | Developer Tools & Platform |
-| Yelp Top 100 — Yelp | Svelte Kit | [https://top100.yelp.com](https://top100.yelp.com) | [blog](https://www.okupter.com/blog/companies-using-svelte) | Business & Reviews |
+| Site | Implementation | Domains | Evidence |
+|------|----------------|---------|----------|
+| Apple Music — Apple | Svelte | [https://music.apple.com](https://music.apple.com) | [blog](https://www.okupter.com/blog/companies-using-svelte) |
+| Brave Search — Brave | Svelte Kit | [https://search.brave.com](https://search.brave.com) | [blog](https://www.okupter.com/blog/companies-using-svelte) |
+| Cloudflare | Svelte in Micro Frontend | [https://cloudflare.com](https://cloudflare.com) | [blog](https://www.okupter.com/blog/companies-using-svelte) |
+| Decathlon | Svelte Kit | [https://www.decathlon.fr](https://www.decathlon.fr) | [blog](https://www.okupter.com/blog/companies-using-svelte) |
+| France Bleu | Svelte Kit | [https://francebleu.fr](https://francebleu.fr) | [detector](https://francebleu.fr) |
+| IKEA | Svelte in Micro Frontend | [https://www.ikea.com/fr/fr/](https://www.ikea.com/fr/fr/) | [blog](https://www.okupter.com/blog/companies-using-svelte) |
+| Leroy Merlin | Svelte in Micro Frontend | [https://www.leroymerlin.fr](https://www.leroymerlin.fr) | [other](https://www.welovespeed.com/en/2021/talks/micro-frontend-drives-web-performance/) |
+| Radio France | Svelte Kit | [https://radiofrance.fr](https://radiofrance.fr) | [detector](https://radiofrance.fr) |
+| Spotify | Svelte in Micro Frontend | [https://spotify.com](https://spotify.com) | [blog](https://www.okupter.com/blog/companies-using-svelte) |
+| Square | Svelte | [https://squareup.com](https://squareup.com) | [blog](https://www.okupter.com/blog/companies-using-svelte) |
+| Stack Overflow | Svelte Kit | [https://stackoverflow.com](https://stackoverflow.com) | [blog](https://stackoverflow.blog/2023/10/31/why-stack-overflow-is-embracing-svelte/) |
+| The New York Times | Svelte Kit | [https://nytimes.com](https://nytimes.com) | [blog](https://www.okupter.com/blog/companies-using-svelte) |
+| ViaMichelin | Svelte Kit | [https://viamichelin.com](https://viamichelin.com) | [detector](https://viamichelin.fr), [blog](https://www.okupter.com/blog/companies-using-svelte) |
+| Windmill — Windmill Labs | Svelte Kit | [https://windmill.dev](https://windmill.dev) | [code](https://github.com/windmill-labs/windmill) |
+| Yelp Top 100 — Yelp | Svelte | [https://top100.yelp.com](https://top100.yelp.com) | [blog](https://www.okupter.com/blog/companies-using-svelte) |
 <!-- END_SITES_TABLE -->
 
 ## 📜 License
