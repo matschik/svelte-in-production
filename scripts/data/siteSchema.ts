@@ -8,7 +8,7 @@ export const SiteSchema = z.object({
   implementation: z.enum(['Svelte', 'Svelte Kit', 'Svelte with Astro', 'Svelte in Micro Frontend']),
   domains: z.array(z.url()),
   evidence: z.array(z.object({
-    type: z.enum(['blog', 'press', 'detector', 'code', 'other']),
+    type: z.enum(['blog official', 'blog unofficial', 'detector', 'code', 'developer talk']),
     url: z.url()
   }))
 });

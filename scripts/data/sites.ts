@@ -12,9 +12,6 @@ export const sites: Sites = [
     evidence: [{
       type: "detector",
       url: "https://viamichelin.fr"
-    }, {
-      type: "blog",
-      url: "https://www.okupter.com/blog/companies-using-svelte"
     }]
   },
   {
@@ -24,8 +21,8 @@ export const sites: Sites = [
     implementation: "Svelte Kit",
     domains: ["https://radiofrance.fr"],
     evidence: [{
-      type: "detector",
-      url: "https://radiofrance.fr"
+      type: "developer talk",
+      url: "https://meetech.app/svelte-paris/event/2025-09/talk/svelte-et-radiofrance-toute-une-histoire-et_K8eEO8MoLqs7uHjk"
     }]
   },
   {
@@ -43,10 +40,10 @@ export const sites: Sites = [
     name: "The New York Times",
     brand: "The New York Times",
     sector: "Media & Publishing",
-    implementation: "Svelte Kit",
+    implementation: "Svelte",
     domains: ["https://nytimes.com"],
     evidence: [{
-      type: "blog",
+      type: "blog unofficial",
       url: "https://www.okupter.com/blog/companies-using-svelte"
     }]
   },
@@ -57,7 +54,7 @@ export const sites: Sites = [
     implementation: "Svelte",
     domains: ["https://music.apple.com"],
     evidence: [{
-      type: "blog",
+      type: "blog unofficial",
       url: "https://www.okupter.com/blog/companies-using-svelte"
     }]
   },
@@ -65,10 +62,10 @@ export const sites: Sites = [
     name: "Stack Overflow",
     brand: "Stack Overflow",
     sector: "Technology & Developer Tools",
-    implementation: "Svelte Kit",
+    implementation: "Svelte",
     domains: ["https://stackoverflow.com"],
     evidence: [{
-      type: "blog",
+      type: "blog official",
       url: "https://stackoverflow.blog/2023/10/31/why-stack-overflow-is-embracing-svelte/"
     }]
   },
@@ -79,7 +76,7 @@ export const sites: Sites = [
     implementation: "Svelte in Micro Frontend",
     domains: ["https://www.ikea.com/fr/fr/"],
     evidence: [{
-      type: "blog",
+      type: "blog unofficial",
       url: "https://www.okupter.com/blog/companies-using-svelte"
     }]
   },
@@ -90,7 +87,7 @@ export const sites: Sites = [
     implementation: "Svelte Kit",
     domains: ["https://www.decathlon.fr"],
     evidence: [{
-      type: "blog",
+      type: "blog unofficial",
       url: "https://www.okupter.com/blog/companies-using-svelte"
     }]
   },
@@ -101,7 +98,7 @@ export const sites: Sites = [
     implementation: "Svelte",
     domains: ["https://top100.yelp.com"],
     evidence: [{
-      type: "blog",
+      type: "blog unofficial",
       url: "https://www.okupter.com/blog/companies-using-svelte"
     }]
   },
@@ -112,7 +109,7 @@ export const sites: Sites = [
     implementation: "Svelte in Micro Frontend",
     domains: ["https://spotify.com"],
     evidence: [{
-      type: "blog",
+      type: "blog unofficial",
       url: "https://www.okupter.com/blog/companies-using-svelte"
     }],
     hidden: true
@@ -124,7 +121,7 @@ export const sites: Sites = [
     implementation: "Svelte",
     domains: ["https://squareup.com"],
     evidence: [{
-      type: "blog",
+      type: "blog unofficial",
       url: "https://www.okupter.com/blog/companies-using-svelte"
     }]
   },
@@ -135,7 +132,7 @@ export const sites: Sites = [
     implementation: "Svelte in Micro Frontend",
     domains: ["https://cloudflare.com"],
     evidence: [{
-      type: "blog",
+      type: "blog unofficial",
       url: "https://www.okupter.com/blog/companies-using-svelte"
     }],
     hidden: true
@@ -147,7 +144,7 @@ export const sites: Sites = [
     implementation: "Svelte Kit",
     domains: ["https://search.brave.com"],
     evidence: [{
-      type: "blog",
+      type: "blog unofficial",
       url: "https://www.okupter.com/blog/companies-using-svelte"
     }]
   },
@@ -169,7 +166,7 @@ export const sites: Sites = [
     implementation: "Svelte in Micro Frontend",
     domains: ["https://www.leroymerlin.fr"],
     evidence: [{
-      type: "other",
+      type: "developer talk",
       url: "https://www.welovespeed.com/en/2021/talks/micro-frontend-drives-web-performance/"
     }]
   }
