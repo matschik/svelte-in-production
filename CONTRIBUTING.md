@@ -1,25 +1,55 @@
 # Contributing
 
-Thanks for helping improve this list!
+Thanks for helping improve this list! This guide explains how to add or refine entries, run checks locally with Bun, and submit a great pull request.
 
-## Add a site
-1. Ensure it meets at least one Inclusion Criterion in the README.
-2. Append an object to `data/sites.json` (keep the array sorted by `name`).
-3. Provide an **evidence URL** (blog post, press, detector report, or repo) in `evidence.url`.
-4. Run locally:
-   - `pnpm install`
-   - `node scripts/validate.ts`
-   - `node scripts/build-readme.ts`
-5. Commit both `data/sites.json` **and** the regenerated `README.md`.
+## Prerequisites
+- Bun installed (see `package.json` → `packageManager` or visit bun.sh)
+- Git configured
 
-### Evidence tips
-- Prefer **first‑party evidence** (official blog/docs).
-- Detector links should be stable (public report or archive).
-- If Svelte is used only in a section (e.g., dashboard), set `status: partial` and clarify in `notes`.
+After cloning:
+```bash
+bun install
+```
 
-### Labels
-- `framework: svelte` vs `framework: sveltekit`.
-- `status: legacy` if the site migrated away (keep record with last known date).
+Git hooks are managed by Lefthook and are installed on `bun install`. The pre-commit hook runs `bun run build` to keep `README.md` in sync.
 
-### Quality bar
-- No affiliate links. No SEO spam. Keep descriptions neutral and concise.
+## What belongs here
+We curate a high‑signal, verifiable catalog of recognized websites and apps using Svelte or SvelteKit.
+- Prefer brands, institutions, or notable products.
+- Every entry needs strong, public evidence (see Evidence guidelines).
+
+## Workflow overview
+1) Add or edit a site in `scripts/data/sites.ts`.
+2) Validate and type‑check your changes.
+3) Regenerate the `README.md` stats and table.
+4) Commit both the data change and the regenerated `README.md`.
+
+### Commands
+```bash
+# Generate README stats and sites table on any change
+bun run dev
+
+# Generate README stats and sites table
+bun run build
+```
+
+## Adding a site
+Open `scripts/data/sites.ts` and add a new object to the `sites` array.
+
+## Evidence guidelines
+- Prefer first‑party sources: official blog, docs, engineering posts.
+- For detectors, link a stable, public page (or an archived snapshot).
+- If Svelte is used only for a section (e.g., a dashboard), clarify in `notes` and consider setting a status note.
+
+## Common tasks
+- Rebuild README: `bun run build`
+- Update deps within ranges: `bun update`
+
+## Troubleshooting
+- Hooks didn’t run: ensure `bunx lefthook install` and that `.git/hooks` exists; re-run `bun install`.
+- README didn’t change: make sure you ran `bun run build` and that your entry isn’t marked `hidden: true`.
+- Type errors: check your object matches the schema and field spellings; run `bunx tsc --noEmit`.
+- Network errors on build: the build only rewrites local files; no network is required. Verify file write permissions.
+
+## License
+MIT — data contributions are under CC0 unless otherwise stated.
