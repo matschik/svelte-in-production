@@ -1,0 +1,21 @@
+{
+  "name": "svelte-in-production",
+  "version": "0.1.0",
+  "description": "A community-maintained, verifiable catalog of recognized websites and apps using Svelte",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun --watch scripts/build.ts",
+    "build": "bun scripts/build.ts"
+  },
+  "packageManager": "bun@1.0.0",
+  "devDependencies": {
+    "@types/bun": "^1.2.22",
+    "@types/node": "^24.5.2",
+    "typescript": "^5.9.2",
+    "zod": "^4.1.9"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  }
+}
